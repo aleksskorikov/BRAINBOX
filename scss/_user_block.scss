@@ -1,0 +1,93 @@
+.conteiner {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.main__block {
+    display: flex;
+    max-width: 82rem;
+    margin: 3rem auto;
+    border-radius: 3.125rem;
+    background: linear-gradient(122deg, #8815a0 0%, rgba(224, 64, 238, 0) 100%);
+    box-shadow: 5px 4px 14px 0px rgba(0, 0, 0, 0.30);
+}
+
+.user {
+    width: 20rem;
+    border-radius: 3.125rem 0rem 0rem 3.125rem;
+    background: #4C99AA;
+    box-shadow: 7px 4px 14px 0px rgba(0, 0, 0, 0.33);
+    padding: 2.7rem 0 0 1.7rem;
+
+    h3 {
+        padding: 1.7rem 0 0 1.2rem;
+        color: #FFF;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+.user-foto {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background: rgba(190, 186, 186, 0.76);
+
+    img {
+        padding: 3rem 0 0 4.2rem;
+    }
+
+    p {
+        padding: 1rem 0 0 3.5rem;
+        font-size: 1rem;
+    }
+}
+
+.addfoto {
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background: #B38CE5;
+    top: -8.8rem;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.division {
+    width: 20rem;
+    height: 0.3rem;
+    background: #C6EDED;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1.4rem -1.7rem;
+}
+
+.page__links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 0.5rem;
+    margin-bottom: 20rem;
+}
+
+
+.pages-linck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B38CE5;
+    width: 11rem;
+    height: 2.3rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0;
+
+    &:active {
+        top: 2px;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.24);
+    }
+}

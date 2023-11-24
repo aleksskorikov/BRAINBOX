@@ -1,0 +1,48 @@
+
+.conteiner {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 3rem;
+    background: #B269EB;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.32);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 22rem;
+}
+
+.logo {
+    margin-right: 1.8rem;
+}
+
+.logo-title {
+    color: #FFF;
+    font-size: 1.9rem;
+}
+
+.header__nav {
+    margin-right: 5.8rem;
+}
+
+
+.nav-list {
+    display: inline-block;
+}
+
+.nav-linc {
+    color: #FFF;
+    font-size: 1.9rem;
+    margin-left: 4rem;
+}
+
+
+

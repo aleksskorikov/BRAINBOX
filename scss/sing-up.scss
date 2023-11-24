@@ -1,0 +1,88 @@
+
+
+.sing-up {
+    display: flex;
+    background: #A7D7C5;
+    height: 100%;
+}
+
+.sing-up__block {
+    text-align: center;
+    margin: auto;
+    width: 44rem;
+    background: #F6FBF9;
+    border-radius: 3rem;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.24);
+}
+
+.sing-up__title {
+    color: #212B27;
+    font-family: Karla;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin: 3rem 0 2.4rem;
+}
+
+.sing-up__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sing-up__input {
+    width: 36rem;
+    border-radius: 1rem;
+    border: 1.6px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    margin: 1.3rem auto;
+    padding: 2.3rem 1.6rem;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Karla;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+    &:focus {
+        background: #eceaea;
+        border: 1.6px solid rgba(0, 0, 0, 0.30);
+        color: rgba(0, 0, 0, 0.80);
+    }
+}
+
+.sing-up__button {
+    width: 25rem;
+    margin: auto;
+    padding: 1.6rem;
+    border-radius: 1.5rem;
+    background: #84C7AE;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.24);
+    transition-duration: .5s;
+    transition: background-color 0.5s ease 0s;
+    position: relative;
+    top: 0;
+    &:hover {
+        background: #4fcd9f;
+    }
+    &:active {
+        top: 2px;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.24);
+    }
+}
+
+.sing-up__text {
+    color: #32403B;
+    font-family: Karla;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin: 1.5rem 0 5rem;
+}
+
+.sing-up__link {
+    color: #32403B;
+    text-decoration: underline;
+}
