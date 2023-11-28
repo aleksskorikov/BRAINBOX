@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 @charset "UTF-8";
-=======
 .header {
   background: #B269EB;
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.32);
 }
 
->>>>>>> addContext
 .conteiner {
   max-width: 90rem;
   margin: 0 auto;
