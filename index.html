@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/resets.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <script src="/scripts/script.js" defer></script>
@@ -43,8 +44,10 @@
                             <input id="formImage" type="file" class="addfoto" onchange="previewImage()">
                         </form>
                     </div>
-                    <h3 >User Name: <span class="user-name"></span></h3>
-                    <h3>Email: <span class="email"></span></h3>
+                    <div class="user-block">
+                        <h3 class="user-name">User Name: <span class="name"></span></h3>
+                        <h3 class="user-email">Email: <span class="email"></span></h3>
+                    </div>
                     <div class="division"></div>
                     <div class="page__links">
                         <a href="./pages/CreateGroup.html" target="_blank"  class="pages-linck">Створити групу</a>

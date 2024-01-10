@@ -15,4 +15,7 @@ if (files.length > 0) {
     image.classList.add("foto");
     preview.appendChild(image);
 }
-}
+};
+
+
+
