@@ -35,8 +35,14 @@
     border-radius: 50%;
     background: rgba(190, 186, 186, 0.76);
 
-    img {
+    .plug {
         padding: 3rem 0 0 4.2rem;
+    }
+
+    .foto{
+        width: 13rem;
+        height: 13rem;
+        border-radius: 50%;
     }
 
     p {

@@ -78,8 +78,13 @@
   border-radius: 50%;
   background: rgba(190, 186, 186, 0.76);
 }
-.user-foto img {
+.user-foto .plug {
   padding: 3rem 0 0 4.2rem;
+}
+.user-foto .foto {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
 }
 .user-foto p {
   padding: 1rem 0 0 3.5rem;
@@ -151,4 +156,11 @@
   letter-spacing: 0.02rem;
   margin: 3.4rem 2rem 0 0;
   padding: 0 2rem 0 1rem;
+}
+
+.foto {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  background-image: url();
 }/*# sourceMappingURL=style.css.map */
