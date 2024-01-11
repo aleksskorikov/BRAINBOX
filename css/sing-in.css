@@ -1,10 +1,10 @@
-.sing-up {
+.sing-in {
   display: flex;
   background: #848BC7;
   height: 100%;
 }
 
-.sing-up__block {
+.sing-in__block {
   text-align: center;
   margin: auto;
   width: 44rem;
@@ -13,7 +13,7 @@
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.24);
 }
 
-.sing-up__title {
+.sing-in__title {
   color: #212B27;
   font-family: Karla;
   font-size: 3.5rem;
@@ -22,12 +22,12 @@
   margin: 3rem 0 2.4rem;
 }
 
-.sing-up__form {
+.sing-in__form {
   display: flex;
   flex-direction: column;
 }
 
-.sing-up__input {
+.sing-in__input {
   width: 36rem;
   border-radius: 1rem;
   border: 1.6px solid rgba(0, 0, 0, 0.1);
@@ -39,18 +39,18 @@
   font-size: 1.4rem;
   font-weight: 400;
 }
-.sing-up__input:focus {
+.sing-in__input:focus {
   background: #eceaea;
   border: 1.6px solid rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.8);
 }
 
-.sing-up__button {
+.sing-in__button {
   width: 25rem;
   margin: auto;
   padding: 1.6rem;
   border-radius: 1.5rem;
-  background: #84C7AE;
+  background: #848BC7;
   color: #FFF;
   font-family: Karla;
   font-size: 2rem;
@@ -62,15 +62,15 @@
   position: relative;
   top: 0;
 }
-.sing-up__button:hover {
+.sing-in__button:hover {
   background: #4fcd9f;
 }
-.sing-up__button:active {
+.sing-in__button:active {
   top: 2px;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.24);
 }
 
-.sing-up__text {
+.sing-in__text {
   color: #32403B;
   font-family: Karla;
   font-size: 1.3rem;
@@ -79,7 +79,7 @@
   margin: 1.5rem 0 5rem;
 }
 
-.sing-up__link {
+.sing-in__link {
   color: #32403B;
   text-decoration: underline;
 }/*# sourceMappingURL=sing-in.css.map */
