@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="/scripts/script.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -27,6 +28,12 @@
                     </ul>
                 </nav>
                 <p class="nav-exit"><a href="#" class="exit"><img src="../imgs/exit.svg" alt=""></a></p>
+                <div class="drop__menu">
+                    <ul class="drop__menu-lists">
+                        <li class="drop__menu-list"><a href="/pages/Sing-in.html" class="drop__menu-link">Вихід</a> </li>
+                        <li class="drop__menu-list">Видалити акаунт</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -35,19 +42,22 @@
         <div class="conteiner">
             <div class="main__block">
                 <section class="user">
-                    <div class="user-foto">
-                        <img src="../imgs/image 1.svg" alt="">
+                    <div class="user-foto" id="user-foto">
+                        <img src="../imgs/image 1.svg" class="plug" alt="">
                         <p>Завантажити</p>
                         <form action="">
-                            <input type="file" class="addfoto">
+                            <input id="formImage" type="file" class="addfoto" onchange="previewImage()">
                         </form>
                     </div>
-                    <h3>User Name: <span class="user-name"></span></h3>
-                    <h3>Email: <span class="email"></span></h3>
+                    <div class="user-block" id="user-block">
+                        <h3 class="user-name">User Name: <span class="name" id="name"><br></span></h3>
+                        <h3 class="user-email">Email: <span class="email" id="email"></span></h3>
+                    </div>
                     <div class="division"></div>
                     <div class="page__links">
-                        <a href="../pages/CreateGroup.html" target="_blank"  class="pages-linck">Створити групу</a>
-                        <a href="../pages/Rating.html" target="_blank"  class="pages-linck">Рейтинг</a>
+                        <a href="./pages/CreateGroup.html" target="_blank" class="pages-linck">Створити групу</a>
+                        <a href="./pages/GroupOfCards.html" target="_blank" class="pages-linck">Група карток</a>
+                        <a href="./pages/Rating.html" target="_blank" class="pages-linck">Рейтинг</a>
                     </div>
                 </section>
                 <section class="info">

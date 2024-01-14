@@ -87,15 +87,34 @@ document.addEventListener('DOMContentLoaded', function () {
         let userImageKey = username + "image";
         let savedImage = localStorage.getItem(userImageKey);
 
-        if (savedImage) {
-            const preview = document.querySelector('#user-foto');
-            let image = document.createElement('img');
-            image.src = savedImage;
-            image.classList.add("foto");
-            preview.appendChild(image);
-        } else {
-            console.log('У вас немає фото');
-        }
+        // if (savedImage) {
+        //     const preview = document.querySelector('#user-foto');
+        //     let image = document.createElement('img');
+        //     image.src = savedImage;
+        //     image.classList.add("foto");
+        //     preview.appendChild(image);
+        // } else {
+        //     console.log('У вас немає фото');
+        // }
     }
 });
+
+const exitBtn = document.querySelector(".exit");
+const dropMenu = document.querySelector(".drop__menu");
+
+if (exitBtn) {   
+    exitBtn.addEventListener("click", () => {
+        dropMenu.style.display = "block";
+    });    
+};
+
+dropMenu.addEventListener("click", () => {
+    dropMenu.style.display = "none";
+});
+
+
+
+
+
+    
 

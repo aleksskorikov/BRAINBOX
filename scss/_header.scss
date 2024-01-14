@@ -14,7 +14,7 @@
     justify-content: space-between;
     padding: 1.3rem 3rem;
     font-family: 'Open Sans', sans-serif;
-    
+    position: relative;
 }
 
 .header__logo {
@@ -47,5 +47,31 @@
     margin-left: 4rem;
 }
 
+.drop__menu {
+    position: absolute;
+    display: none;
+    top: 80px;
+    right: 50px;
+    width: 250px;
+    height: 100px;
+    background: wheat;
+    padding: 10px;
+    border-radius: 10px 0 10px 10px;
+}
+
+
+.drop__menu-list  {
+    margin: 20px;
+    cursor: pointer;
+    &:hover {
+        color: rgb(107, 106, 106);
+    }
+}
+.drop__menu-link{
+    color: black;
+    &:hover{
+        color: rgb(107, 106, 106);
+    }
+}
 
 
